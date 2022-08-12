@@ -10,3 +10,14 @@ h1 {
   color: #fff;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
+li {
+  display: inline;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: inline;
+}
