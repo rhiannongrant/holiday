@@ -18,30 +18,28 @@
     <title>Holiday</title>
   </head>
   <body>
-    <div class="top-section">
-      <div class="navbar-background">
-        <nav class="navbar">
-          <div class="container-fluid">
-            <a href="#" class="navbar-link" id="main-navbar">Holiday Finder</a>
-          </div>
-          <ul class="navbar-nav">
-            <li class="navbar-link">
-              <a href="#" class="navbar-link">Find Your Holiday</a>
-            </li>
-            <li class="navbar-link">
-              <a href="#" class="navbar-link">Popular Locations</a>
-            </li>
-            <li class="navbar-link">
-              <a href="#" class="navbar-link">Log In</a>
-            </li>
-            <li class="navbar-link">
-              <a href="#" class="navbar-button"
-                >Create An Account <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a href="#" class="navbar-link" id="main-navbar">Holiday Finder</a>
+        </div>
+        <ul class="navbar-nav">
+          <li class="navbar-link">
+            <a href="#" class="navbar-link">Find Your Holiday</a>
+          </li>
+          <li class="navbar-link">
+            <a href="#" class="navbar-link">Popular Locations</a>
+          </li>
+          <li class="navbar-link">
+            <a href="#" class="navbar-link">Log In</a>
+          </li>
+          <li class="navbar-link">
+            <a href="#" class="navbar-button"
+              >Create An Account <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
       <div>
         <h1 class="heading">Ready to find your next big dream holiday?</h1>
       </div>
@@ -51,12 +49,12 @@
         ></a>
       </div>
     </div>
-    <div class="booking">
-      <ul class="booking-options">
-        <li>location</li>
-        <li>Nights</li>
-        <li>People</li>
-      </ul>
+    <div class="booking" display="flex">
+      <div class="form"><input type="text" class="form-style" />Location</div>
+      <div class="form">
+        <input type="text" class="form-style" />Nights Away
+      </div>
+      <div class="form"><input type="text" class="form-style" />People</div>
     </div>
   </body>
 </html>
