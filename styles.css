@@ -15,15 +15,23 @@ li {
   display: inline;
 }
 
+nav {
+  backdrop-filter: blur(5px);
+}
+
 .navbar-link {
   color: white;
   text-decoration: none;
   font-family: "Be Vietnam Pro", sans-serif;
   display: inline;
+  text-align: center;
 }
 
-.main-navbar {
-  float: left;
+#main-navbar {
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  font-size: 18px;
 }
 
 .navbar-button {
@@ -35,4 +43,24 @@ li {
   border-radius: 30px;
   border-color: #000;
   text-decoration: none;
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 18px;
+}
+
+.heading {
+  margin-top: 300px;
+}
+
+.started {
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border-color: #000;
+  text-decoration: none;
+  font-size: 18px;
 }
