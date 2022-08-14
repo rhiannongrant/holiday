@@ -37,13 +37,6 @@ li {
   list-style: none;
 }
 
-#main-navbar {
-  position: absolute;
-  left: 40px;
-  top: 25px;
-  font-size: 18px;
-}
-
 .navbar-button {
   margin: 0 auto;
   background-color: #000;
@@ -54,8 +47,8 @@ li {
   border-color: #000;
   text-decoration: none;
   position: absolute;
-  top: 25px;
-  font-size: 18px;
+  top: 30px;
+  font-size: 15px;
 }
 
 .heading {
@@ -78,20 +71,20 @@ li {
   text-decoration: none;
   font-size: 18px;
 }
-
-.bottom {
+.wrapper {
   display: grid;
-  align-items: center;
-  text-align: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 20px;
 }
 
-.input {
-  border: none;
-  border-bottom: #000 1px solid;
-  height: 30px;
-  text-align: center;
+.left {
+  text-align: left;
 }
 
-.labels {
-  margin: 20px;
+.right {
+  text-align: left;
+}
+
+.center {
+  text-align: left;
 }
