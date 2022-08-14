@@ -10,7 +10,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
 }
 
 .main-section {
@@ -33,6 +32,7 @@ li {
 
 nav {
   background: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
 .navbar-link {
@@ -45,7 +45,7 @@ nav {
   list-style: none;
 }
 
-.navbar-button {
+#navbar-button {
   margin: 0 auto;
   background-color: #000;
   color: #fff;
@@ -57,7 +57,7 @@ nav {
   font-size: 15px;
 }
 
-.heading {
+#title {
   margin-left: 100px;
   font-size: 50px;
   width: 50%;
@@ -106,7 +106,7 @@ nav {
 
 input {
   border: none;
-  border-bottom: #000 0.5px solid;
+  border-bottom: #000 0.8px solid;
 }
 
 .circle-button {
