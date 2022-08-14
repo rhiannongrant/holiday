@@ -8,8 +8,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  backdrop-filter: blur(10px);
 }
 
 .main-section {
@@ -24,15 +27,12 @@ header {
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 20px;
   display: inline;
+  margin-right: auto;
+  margin-left: 10px;
 }
 
 li {
   display: inline;
-}
-
-nav {
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
 }
 
 .navbar-link {
@@ -40,13 +40,13 @@ nav {
   text-decoration: none;
   font-family: "Be Vietnam Pro", sans-serif;
   display: inline-block;
-  text-align: center;
+  align-items: center;
   padding: 0px 20px;
   list-style: none;
+  margin-left: 35px;
 }
 
 #navbar-button {
-  margin: 0 auto;
   background-color: #000;
   color: #fff;
   font-family: "Be Vietnam Pro", sans-serif;
@@ -55,6 +55,7 @@ nav {
   border-color: #000;
   text-decoration: none;
   font-size: 15px;
+  margin-right: 20px;
 }
 
 #title {
