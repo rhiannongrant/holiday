@@ -20,15 +20,18 @@ header {
   background-image: url("src/pexels-photo-931018.jpeg");
   background-repeat: no-repeat;
   height: 600px;
+  background-image: cover;
+  background-position: center;
 }
 
 .logo {
   color: #fff;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   display: inline;
   margin-right: auto;
-  margin-left: 10px;
+  margin-left: 30px;
+  font-weight: 900px;
 }
 
 li {
@@ -39,6 +42,7 @@ li {
   color: white;
   text-decoration: none;
   font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 15px;
   display: inline-block;
   align-items: center;
   padding: 0px 20px;
@@ -103,6 +107,7 @@ li {
 .right {
   font-family: var(--main-font);
   padding-bottom: 10px;
+  font-size: 15px;
 }
 
 input {
@@ -122,4 +127,5 @@ input {
   height: 100px;
   border-color: #000;
   text-decoration: none;
+  font-size: 12px;
 }
